@@ -135,8 +135,8 @@ const  barajar=function () {
 
 let mazos = [];
 let contadores = [];
-const Mesa = require('../loteria/models/Mesa.js');
-const Jugador = require('../loteria/models/Usuario.js');
+const Mesa = require('../loteria_backend/models/Mesa.js');
+const Jugador = require('../loteria_backend/models/Usuario.js');
 let swithces = [];
 setInterval(function () {
     correr();

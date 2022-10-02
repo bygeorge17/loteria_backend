@@ -171,7 +171,7 @@ function correr() {
                         id: mesas[indice]._id
                     });
                     let optionsReinicio = {
-                        hostname: '172.21.216.116',
+                        hostname: '137.184.151.96',
                         port: 3000,
                         path: '/reiniciar_mesa',
                         method: 'POST',
@@ -199,7 +199,7 @@ function correr() {
                     id: mesas[indice]._id
                 });
                 let optionsCorriendo = {
-                    hostname: '172.21.216.116',
+                    hostname: '137.184.151.96',
                     port: 3000,
                     path: '/corriendo',
                     method: 'POST',

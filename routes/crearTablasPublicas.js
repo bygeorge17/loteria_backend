@@ -23,7 +23,7 @@ router.get('/',function(req,res){
     console.log(tablas);
   }
   mesa=Mesa({
-    titulo:'Llena',
+    titulo:'Cuatro Esquinas',
     creador:'byGeorge',
     numeroDeTablas:50,
       tipo: 0,
@@ -32,8 +32,8 @@ router.get('/',function(req,res){
     formaDeGanar:[
       //  'assets/img/linea.png',
       //  'assets/img/cuadrochico.png',
-       //'assets/img/cuatroesquinas.png',
-      'assets/img/llena.png',
+       'assets/img/cuatroesquinas.png',
+      // 'assets/img/llena.png',
     ],
     ganador:[],
     tablas:tablas,

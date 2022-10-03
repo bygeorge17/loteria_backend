@@ -23,17 +23,17 @@ router.get('/',function(req,res){
     console.log(tablas);
   }
   mesa=Mesa({
-    titulo:'Linea',
+    titulo:'Llena',
     creador:'byGeorge',
     numeroDeTablas:50,
       tipo: 0,
       bote: 0,
       entrada: 5,
     formaDeGanar:[
-       'assets/img/linea.png',
+      //  'assets/img/linea.png',
       //  'assets/img/cuadrochico.png',
        //'assets/img/cuatroesquinas.png',
-      //'assets/img/llena.png',
+      'assets/img/llena.png',
     ],
     ganador:[],
     tablas:tablas,

@@ -48,7 +48,7 @@ const { Router } = require('express');
 
 const server=require('http').createServer(app);
 var io = socketio(server, {
-    
+
   corsOptions,
   allowEIO3: true // false by default
 });
@@ -82,7 +82,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/getmesa', getmesa);
-app.use('/crearTablasPublicas', crearTablasPublicas);
+// app.use('/crearTablasPublicas', crearTablasPublicas);
 app.use('/new_user_temp', new_user_temp);
 app.use('/update_user', update_user);
 app.use('/get_user', get_user);
@@ -220,7 +220,7 @@ function correr() {
                 contadores[indice]++;
                 console.log(contadores[indice]);
 
- 
+
             };
         }
     });

@@ -3,7 +3,6 @@ var router=express.Router();
 var Mesa=require('../models/Mesa');
 router.post('/',function(req,res,next){
   Mesa.findByIdAndUpdate(req.body.id,{$push:{corriendo:req.body.baraja}}).exec(function(err,mesa){
-
     if (err) {
       return res.json({err,message:'Algo salio mal, por favor intente de nuevo mas tarde'});
     }

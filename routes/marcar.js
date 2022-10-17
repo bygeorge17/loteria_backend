@@ -66,7 +66,7 @@ router.post('/', function (req, res) {
             jugador: req.body.jugador
         });
         let optionsGanador = {
-            hostname: '172.21.216.116',
+            hostname: '137.184.151.96',
             port: 3000,
             path: '/registrar_ganador',
             method: 'POST',
